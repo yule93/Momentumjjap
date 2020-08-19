@@ -2,12 +2,43 @@ body {
   background-color: #ecf0f1;
 }
 
+input {
+background-color: rgba(0,0,0,0.1);
+border: none;
+}
+
+li {
+  color: white;
+  list-style: none;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+input {
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
 .js-clock {
   color: white;
 }
 
 #js-title {
   color: #34495e;
+}
+
+.js-greetings {
+  color: white;
 }
 
 .form, .greetings {

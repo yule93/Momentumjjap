@@ -1,13 +1,9 @@
 const todoForm = document.querySelector(".js-toDoForm"),
-  todoInput = form.querySelector("input"),
+  toDoInput = form.querySelector("input"),
   toDoList = document.querySelector(".js-toDoList");
 
-const TODOS_LS = 'toDos';
+const TODOS_LS = "toDos";
 let toDos = [];
-
-function filterFn(toDo) {
-  return toDo.id === 1;
-}
 
 function deleteToDo(event) {
   const btn = event.target;
@@ -19,10 +15,11 @@ function deleteToDo(event) {
   });
 
   toDos = cleanToDos;
+  saveToDos();
 }
 
 function saveToDos() {
-  localStorage.setItem(TODOS_LS, JSON.stringify(toDos));  // stringify는 어떤 변수든 string 타입으로 바꿔준다. javascript는 로컬 저장시 string으로 변환하려는 성질이 있기 때문
+  localStorage.setItem(TODOS_LS, JSON.stringify(toDos));  /* stringify는 어떤 변수든 string 타입으로 바꿔준다. javascript는 로컬 저장시 string으로 변환하려는 성질이 있기 때문에 객체인 toDos를 string 타입으로 변환시키지 않는다면 "object"라고만 표기된다. */
 }
 
 function paintToDo(text) {
@@ -50,9 +47,9 @@ function paintToDo(text) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  const currentValue = todoInput.value;
+  const currentValue = toDoInput.value;
   paintToDo(currentValue);
-  todoInput.value = ""; 
+  toDoInput.value = ""; 
 }
 
 function loadToDos() {
