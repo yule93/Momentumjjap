@@ -2,8 +2,6 @@ const body = document.querySelector("body");
 
 const IMG_NUM = 3;
 
-// function handleImageLoad() {}
-
 function paintImage(imgNumber) {
   const image = new Image();
   image.src = `./images/${imgNumber + 1}.jpg`;
@@ -22,4 +20,4 @@ function init(){
   paintImage(randomNumber);
 }
 
-init();
+setInterval(init, 10000);
