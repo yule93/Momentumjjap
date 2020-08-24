@@ -13,3 +13,8 @@ replica of the Momentum wepapp
 
 - add the weather function that notice the weather information where you are by checking your geolocation info.
 - Maybe you can use this app in this url (https://momentumjjap.yule93.repl.co/)
+
+(2020/08/23)
+### Add this CONTENTS
+
+- make the function in 'background.js' change background other image every 20 seconds.
