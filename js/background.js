@@ -20,4 +20,6 @@ function init(){
   paintImage(randomNumber);
 }
 
+init();
+
 setInterval(init, 10000);
