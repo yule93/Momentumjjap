@@ -9,7 +9,7 @@ replica of the Momentum wepapp
 ---
 
 (2020/08/20)
- ADD THIS CONTENTS !!
+ ### ADD THIS CONTENTS !!
 
 - add the weather function that notice the weather information where you are by checking your geolocation info.
 - Maybe you can use this app in this url (https://yule93.github.io/yule-momentum-jjap/)
