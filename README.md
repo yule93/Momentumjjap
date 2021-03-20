@@ -11,10 +11,10 @@ replica of the Momentum wepapp
 (2020/08/20)
  ### ADD THIS CONTENTS !!
 
-[v] add the weather function that notice the weather information where you are by checking your geolocation info.
-[v] Maybe you can use this app in this url (https://yule93.github.io/yule-momentum-jjap/)
+- [X] add the weather function that notice the weather information where you are by checking your geolocation info.
+- [X] Maybe you can use this app in this url (https://yule93.github.io/yule-momentum-jjap/)
 
 (2020/08/23)
 ### Add this CONTENTS
 
-[ ] make the function in 'background.js' change background other image every 20 seconds.
+- [ ] make the function in 'background.js' change background other image every 20 seconds.
