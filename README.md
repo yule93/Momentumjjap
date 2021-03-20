@@ -17,4 +17,4 @@ replica of the Momentum wepapp
 (2020/08/23)
 ### Add this CONTENTS
 
-[] make the function in 'background.js' change background other image every 20 seconds.
+[ ] make the function in 'background.js' change background other image every 20 seconds.
